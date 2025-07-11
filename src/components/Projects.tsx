@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Web Portofolio",
     description: "Personal portfolio website to showcase skills and projects.",
-    link: "#",
+    link: "https://github.com/mrbayss/portofolio-new",
   },
 ];
 
@@ -31,7 +31,6 @@ const ProjectCard = ({
       className="bg-light-card dark:bg-dark-card p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center md:items-center justify-between gap-4 md:gap-0"
     >
       <div className="flex flex-col md:flex-row items-center md:items-start w-full md:w-auto md:flex-1">
-        <div className="w-20 h-20 bg-primary/20 rounded-md mb-4 md:mb-0 md:mr-6 flex-shrink-0 flex items-center justify-center"></div>
         <div className="text-center md:text-left w-full md:w-auto md:items-start md:justify-start flex flex-col">
           <h3 className="text-xl font-bold text-gray-900 dark:text-white md:text-left">
             {title}
