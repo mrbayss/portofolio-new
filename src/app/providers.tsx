@@ -4,7 +4,7 @@
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import React from "react";
 
-export function Providers({ children, className }: { children: React.ReactNode; className?: string }) {
+export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <NextThemesProvider attribute="class" defaultTheme="system" enableSystem>
       {children}

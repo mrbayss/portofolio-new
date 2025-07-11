@@ -6,7 +6,6 @@ import {
   FaJsSquare,
   FaHtml5,
   FaCss3Alt,
-  FaGitAlt,
   FaJava,
 } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6";
